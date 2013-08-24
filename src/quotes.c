@@ -46,7 +46,11 @@ return;
 
 // Modify these common button handlers
 void select_single_click_handler(ClickRecognizerRef recognizer, Window *window) {
-  send_cmd(CMD_UP);
+	text_layer_set_text(&text_layer, "Connecting...");
+  	GSize max_size = text_layer_get_max_used_size(app_get_current_graphics_context(), &text_layer);
+  	scroll_layer_set_content_size(&scroll_layer, GSize(144, max_size.h + vert_scroll_text_padding));
+  	scroll_layer_set_content_offset(&scroll_layer, GPoint(0,0), false);
+  	send_cmd(CMD_UP);
 }
 void select_long_click_handler(ClickRecognizerRef recognizer, Window *window) {
 }
