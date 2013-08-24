@@ -1,0 +1,796 @@
+Archive member included because of file (symbol)
+
+/home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                              src/quotes.c.1.o (app_event_loop)
+
+Allocating common symbols
+Common symbol       size              file
+
+quote_text          0x800             src/quotes.c.1.o
+text_layer          0x38              src/quotes.c.1.o
+scroll_layer        0xc0              src/quotes.c.1.o
+inverter_layer      0x28              src/quotes.c.1.o
+window              0x58              src/quotes.c.1.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .bss           0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .init          0x00000000        0x4 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .fini          0x00000000        0x4 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .text          0x00000000       0x68 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .bss           0x00000000       0x1c /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .init_array    0x00000000        0x4 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .fini_array    0x00000000        0x4 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .eh_frame      0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .jcr           0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .text          0x00000000        0x0 src/quotes.c.1.o
+ .bss           0x00000000        0x0 src/quotes.c.1.o
+ .rodata.vert_scroll_text_padding
+                0x00000000        0x4 src/quotes.c.1.o
+ .bss           0x00000000        0x0 /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_delay
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_duration
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_curve
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_handlers
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_implementation
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_get_context
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_schedule
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_unschedule
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_unschedule_all
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_is_scheduled
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_timer_send_event
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_timer_cancel_event
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bmp_init_container
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bmp_deinit_container
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.cos_lookup
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.fonts_load_custom_font
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.fonts_unload_custom_font
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_stroke_color
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_fill_color
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_text_color
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_compositing_mode
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_pixel
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_line
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_fill_rect
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_circle
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_fill_circle
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_round_rect
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.get_time
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_move_to
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_rotate_to
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_draw_outline
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_draw_filled
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_center_point
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_mark_dirty
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_remove_from_parent
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_frame
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_frame
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_hidden
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.light_enable
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.light_enable_interaction
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.psleep   0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_init_current_app
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_get_handle
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_load
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_load_byte_range
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_size
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_deinit_container
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_init_container
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_deinit_container
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_init_container
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_layer_set_src_ic
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_layer_set_angle
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_click_config_provider
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_background_color
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_render
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_fullscreen
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.sin_lookup
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.string_format_time
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_get_text
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_text_color
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_background_color
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_double_pulse
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_enqueue_custom_pattern
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_long_pulse
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_short_pulse
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.clock_is_24h_style
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_init_layer_frame
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_text_alignment
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_bitmap_in_rect
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_text_draw
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_bounds
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_bounds
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_update_proc
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_window
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_remove_child_layers
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_insert_below_sibling
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_insert_above_sibling
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_hidden
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_clips
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_clips
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_overflow_mode
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_text_layout_get_max_used_size
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.inverter_layer_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_bitmap
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_alignment
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_background_color
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_compositing_mode
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.heap_bitmap_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.heap_bitmap_deinit
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.click_recognizer_get_button_id
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.click_number_of_clicks_counted
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_cell_basic_draw
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_cell_title_draw
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_cell_basic_header_draw
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_get_layer
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_set_callbacks
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_set_click_config_onto_window
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_set_selected_next
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_set_selected_index
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_reload_data
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_index_compare
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_context
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_get_content_offset
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_get_content_size
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_frame
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_scroll_up_click_handler
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_scroll_down_click_handler
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_get_layer
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_get_selected_index
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_set_selected_index
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_deinit
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_click_config_provider_with_context
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_get_click_config_provider
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_get_root_layer
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_get_fullscreen
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_status_bar_icon
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_is_loaded
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_pop
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_pop_all
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_contains_window
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_get_top_window
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_remove
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_update_int16
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_update_gpoint
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_update_grect
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_message_register_callbacks
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_message_deregister_callbacks
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_deinit
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_set
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_get
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_calc_buffer_size
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_begin
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_data
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_cstring
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_uint8
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_uint16
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_uint32
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int8
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int16
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int32
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_read_begin_from_buffer
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_read_next
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_read_first
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_serialize_tuplets
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_serialize_tuplets_to_buffer
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_serialize_tuplets_to_buffer_with_iter
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_calc_buffer_size_from_tuplets
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_merge
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_context
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_click_config_provider
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_icon
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_clear_icon
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_add_to_window
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_remove_from_window
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_background_color
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_init
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_label
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_max
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_min
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_value
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_step_size
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_get_value
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.clock_copy_time_string
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gbitmap_init_as_sub_bitmap
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gbitmap_init_with_data
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_comm_set_sniff_interval
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_log  0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_rect
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_cancel
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_get_selected_index
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpoint_equal
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_contains_point
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_align
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_clip
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_crop
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_equal
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_is_empty
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_standardize
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gsize_equal
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rand     0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.srand    0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.snprintf
+                0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strcmp   0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strncmp  0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strncpy  0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strncat  0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strlen   0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.memcpy   0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.memmove  0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.time     0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.time_ms  0x00000000        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text          0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .bss           0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .eh_frame      0x00000000        0x4 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .jcr           0x00000000        0x4 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .text          0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .bss           0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .init          0x00000000        0x8 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .fini          0x00000000        0x8 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+APP              0x00000000         0x00006000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+LOAD /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+LOAD src/quotes.c.1.o
+LOAD /home/michael/pebble/quotes/lib/libpebble.a
+START GROUP
+LOAD /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a
+LOAD /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+LOAD /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+LOAD /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.header         0x00000000       0x7c
+ *(.pbl_header)
+ .pbl_header    0x00000000       0x7c src/quotes.c.1.o
+                0x00000000                __pbl_app_info
+
+.rodata.max_text_bounds.6359
+                0x0000007c        0x8
+ .rodata.max_text_bounds.6359
+                0x0000007c        0x8 src/quotes.c.1.o
+
+.rodata.str1.1  0x00000084       0x6e
+ .rodata.str1.1
+                0x00000084       0x6e src/quotes.c.1.o
+                                 0x6f (size before relaxing)
+
+.text           0x000000f4       0x14
+ *(.text)
+ .text          0x000000f4       0x14 /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+
+.glue_7         0x00000108        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000108        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000108        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000108        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00000108        0x0
+ .iplt          0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.text.select_long_click_handler
+                0x00000108        0x2
+ .text.select_long_click_handler
+                0x00000108        0x2 src/quotes.c.1.o
+                0x00000108                select_long_click_handler
+
+.text.override_click_config
+                0x0000010c       0x1c
+ .text.override_click_config
+                0x0000010c       0x1c src/quotes.c.1.o
+                0x0000010c                override_click_config
+
+.text.in_dropped_callback
+                0x00000128       0x70
+ .text.in_dropped_callback
+                0x00000128       0x70 src/quotes.c.1.o
+
+.text.out_failed_callback
+                0x00000198       0x70
+ .text.out_failed_callback
+                0x00000198       0x70 src/quotes.c.1.o
+
+.text.out_sent_callback
+                0x00000208       0x70
+ .text.out_sent_callback
+                0x00000208       0x70 src/quotes.c.1.o
+
+.text.in_received_callback
+                0x00000278       0xa4
+ .text.in_received_callback
+                0x00000278       0xa4 src/quotes.c.1.o
+
+.text.handle_init
+                0x0000031c       0x54
+ .text.handle_init
+                0x0000031c       0x54 src/quotes.c.1.o
+                0x0000031c                handle_init
+
+.text.send_cmd.constprop.0
+                0x00000370       0x3c
+ .text.send_cmd.constprop.0
+                0x00000370       0x3c src/quotes.c.1.o
+
+.text.select_single_click_handler
+                0x000003ac        0x4
+ .text.select_single_click_handler
+                0x000003ac        0x4 src/quotes.c.1.o
+                0x000003ac                select_single_click_handler
+
+.text.window_load
+                0x000003b0       0xfc
+ .text.window_load
+                0x000003b0       0xfc src/quotes.c.1.o
+                0x000003b0                window_load
+
+.text.pbl_main  0x000004ac       0x5c
+ .text.pbl_main
+                0x000004ac       0x5c src/quotes.c.1.o
+                0x000004ac                pbl_main
+
+.text.app_event_loop
+                0x00000508        0xc
+ .text.app_event_loop
+                0x00000508        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000508                app_event_loop
+
+.text.fonts_get_system_font
+                0x00000514        0xc
+ .text.fonts_get_system_font
+                0x00000514        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000514                fonts_get_system_font
+
+.text.layer_add_child
+                0x00000520        0xc
+ .text.layer_add_child
+                0x00000520        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000520                layer_add_child
+
+.text.window_init
+                0x0000052c        0xc
+ .text.window_init
+                0x0000052c        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000052c                window_init
+
+.text.window_stack_push
+                0x00000538        0xc
+ .text.window_stack_push
+                0x00000538        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000538                window_stack_push
+
+.text.text_layer_init
+                0x00000544        0xc
+ .text.text_layer_init
+                0x00000544        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000544                text_layer_init
+
+.text.text_layer_set_text
+                0x00000550        0xc
+ .text.text_layer_set_text
+                0x00000550        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000550                text_layer_set_text
+
+.text.text_layer_set_font
+                0x0000055c        0xc
+ .text.text_layer_set_font
+                0x0000055c        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000055c                text_layer_set_font
+
+.text.app_get_current_graphics_context
+                0x00000568        0xc
+ .text.app_get_current_graphics_context
+                0x00000568        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000568                app_get_current_graphics_context
+
+.text.text_layer_get_max_used_size
+                0x00000574        0xc
+ .text.text_layer_get_max_used_size
+                0x00000574        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000574                text_layer_get_max_used_size
+
+.text.text_layer_set_size
+                0x00000580        0xc
+ .text.text_layer_set_size
+                0x00000580        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000580                text_layer_set_size
+
+.text.scroll_layer_init
+                0x0000058c        0xc
+ .text.scroll_layer_init
+                0x0000058c        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000058c                scroll_layer_init
+
+.text.scroll_layer_add_child
+                0x00000598        0xc
+ .text.scroll_layer_add_child
+                0x00000598        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000598                scroll_layer_add_child
+
+.text.scroll_layer_set_click_config_onto_window
+                0x000005a4        0xc
+ .text.scroll_layer_set_click_config_onto_window
+                0x000005a4        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000005a4                scroll_layer_set_click_config_onto_window
+
+.text.scroll_layer_set_callbacks
+                0x000005b0        0xc
+ .text.scroll_layer_set_callbacks
+                0x000005b0        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000005b0                scroll_layer_set_callbacks
+
+.text.scroll_layer_set_content_offset
+                0x000005bc        0xc
+ .text.scroll_layer_set_content_offset
+                0x000005bc        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000005bc                scroll_layer_set_content_offset
+
+.text.scroll_layer_set_content_size
+                0x000005c8        0xc
+ .text.scroll_layer_set_content_size
+                0x000005c8        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000005c8                scroll_layer_set_content_size
+
+.text.window_set_window_handlers
+                0x000005d4        0xc
+ .text.window_set_window_handlers
+                0x000005d4        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000005d4                window_set_window_handlers
+
+.text.app_message_out_get
+                0x000005e0        0xc
+ .text.app_message_out_get
+                0x000005e0        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000005e0                app_message_out_get
+
+.text.app_message_out_send
+                0x000005ec        0xc
+ .text.app_message_out_send
+                0x000005ec        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000005ec                app_message_out_send
+
+.text.app_message_out_release
+                0x000005f8        0xc
+ .text.app_message_out_release
+                0x000005f8        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000005f8                app_message_out_release
+
+.text.dict_write_end
+                0x00000604        0xc
+ .text.dict_write_end
+                0x00000604        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000604                dict_write_end
+
+.text.dict_write_tuplet
+                0x00000610        0xc
+ .text.dict_write_tuplet
+                0x00000610        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000610                dict_write_tuplet
+
+.text.dict_find
+                0x0000061c        0xc
+ .text.dict_find
+                0x0000061c        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000061c                dict_find
+
+.text.strcpy    0x00000628        0xc
+ .text.strcpy   0x00000628        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000628                strcpy
+
+.text.strcat    0x00000634        0xc
+ .text.strcat   0x00000634        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000634                strcat
+
+.text.memset    0x00000640        0xc
+ .text.memset   0x00000640        0xc /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000640                memset
+
+.rel.dyn        0x0000064c        0x0
+ .rel.iplt      0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .rel.got       0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.data           0x0000064c        0x4
+ *(.data)
+ .data          0x0000064c        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .data          0x0000064c        0x4 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+                0x0000064c                __dso_handle
+ .data          0x00000650        0x0 src/quotes.c.1.o
+ .data          0x00000650        0x0 /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .data          0x00000650        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .data          0x00000650        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.igot.plt       0x00000650        0x0
+ .igot.plt      0x00000000        0x0 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.got            0x00000650       0x10
+ .got           0x00000650       0x10 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.got.plt        0x00000660        0xc
+ .got.plt       0x00000660        0xc /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+                0x00000660                _GLOBAL_OFFSET_TABLE_
+
+.bss            0x0000066c      0x978
+ *(.bss)
+ COMMON         0x0000066c      0x978 src/quotes.c.1.o
+                0x0000066c                quote_text
+                0x00000e6c                text_layer
+                0x00000ea4                scroll_layer
+                0x00000f64                inverter_layer
+                0x00000f8c                window
+
+DISCARD
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+ *(.eh_frame)
+OUTPUT(/home/michael/pebble/quotes/build/pebble-app.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x27
+ .ARM.attributes
+                0x00000000       0x1b /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .ARM.attributes
+                0x0000001b       0x2b /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000046       0x33 src/quotes.c.1.o
+ .ARM.attributes
+                0x00000079       0x21 /home/michael/pebble/quotes/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .ARM.attributes
+                0x0000009a       0x2b /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .ARM.attributes
+                0x000000c5       0x1b /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.comment        0x00000000       0x4e
+ .comment       0x00000000       0x4e /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+                                 0x4f (size before relaxing)
+ .comment       0x00000000       0x4f src/quotes.c.1.o
+ .comment       0x00000000       0x4f /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+
+.debug_line     0x00000000      0x331
+ .debug_line    0x00000000       0x71 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_line    0x00000071      0x24b src/quotes.c.1.o
+ .debug_line    0x000002bc       0x75 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_info     0x00000000     0x1ada
+ .debug_info    0x00000000       0x93 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_info    0x00000093     0x19b4 src/quotes.c.1.o
+ .debug_info    0x00001a47       0x93 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_abbrev   0x00000000      0x2c8
+ .debug_abbrev  0x00000000       0x12 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_abbrev  0x00000012      0x2a4 src/quotes.c.1.o
+ .debug_abbrev  0x000002b6       0x12 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_aranges  0x00000000       0xc0
+ .debug_aranges
+                0x00000000       0x28 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_aranges
+                0x00000028       0x70 src/quotes.c.1.o
+ .debug_aranges
+                0x00000098       0x28 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_ranges   0x00000000       0xa0
+ .debug_ranges  0x00000000       0x20 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_ranges  0x00000020       0x60 src/quotes.c.1.o
+ .debug_ranges  0x00000080       0x20 /home/michael/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_loc      0x00000000      0x2c6
+ .debug_loc     0x00000000      0x2c6 src/quotes.c.1.o
+
+.debug_str      0x00000000      0xf80
+ .debug_str     0x00000000      0xf80 src/quotes.c.1.o
+                               0x108d (size before relaxing)
+
+.debug_frame    0x00000000      0x134
+ .debug_frame   0x00000000      0x134 src/quotes.c.1.o
