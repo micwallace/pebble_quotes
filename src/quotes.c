@@ -7,7 +7,7 @@
 PBL_APP_INFO(MY_UUID,
              "Quotes", "Wallace IT",
              1, 0, /* App version */
-             DEFAULT_MENU_ICON,
+             RESOURCE_ID_QUOTES_ICON,
              APP_INFO_STANDARD_APP);
 
 Window window;
@@ -19,12 +19,11 @@ enum {
   CMD_KEY = 0x0, // TUPLE_INTEGER
 };
 enum {
-  CMD_UP = 0x01,
-  CMD_DOWN = 0x02,
+  CMD_REFRESH = 0x01,
   QUOTE_TXT = 0x05,
   QUOTE_SRC = 0x06,
   QUOTE_CLEAR = 0x07,
-  QUOTE_END = 0x07,
+  QUOTE_END = 0x08,
 };
 
 const int vert_scroll_text_padding = 4;
@@ -50,7 +49,7 @@ void select_single_click_handler(ClickRecognizerRef recognizer, Window *window) 
   	GSize max_size = text_layer_get_max_used_size(app_get_current_graphics_context(), &text_layer);
   	scroll_layer_set_content_size(&scroll_layer, GSize(144, max_size.h + vert_scroll_text_padding));
   	scroll_layer_set_content_offset(&scroll_layer, GPoint(0,0), false);
-  	send_cmd(CMD_UP);
+  	send_cmd(CMD_REFRESH);
 }
 void select_long_click_handler(ClickRecognizerRef recognizer, Window *window) {
 }
@@ -91,7 +90,7 @@ void window_load(Window *me) {
   	//scroll_layer_add_child(&scroll_layer, &inverter_layer.layer);
 	layer_add_child(&me->layer, &scroll_layer.layer);
 	// get the first quote
-	send_cmd(CMD_UP);
+	send_cmd(CMD_REFRESH);
 }
 
 static void out_sent_callback(DictionaryIterator *iter, void *context) {
@@ -102,7 +101,7 @@ static void out_sent_callback(DictionaryIterator *iter, void *context) {
 }
 
 static void out_failed_callback(DictionaryIterator *iter, AppMessageResult reason, void* context) {
-	text_layer_set_text(&text_layer, "Error while sending :(");
+	text_layer_set_text(&text_layer, "Error sending :(");
 	GSize max_size = text_layer_get_max_used_size(app_get_current_graphics_context(), &text_layer);
   	scroll_layer_set_content_size(&scroll_layer, GSize(144, max_size.h + vert_scroll_text_padding));
   	scroll_layer_set_content_offset(&scroll_layer, GPoint(0,0), false);
@@ -117,22 +116,22 @@ static void in_received_callback(DictionaryIterator *iter, void *context) {
 	// read the values
 	Tuple *txt_tuple = dict_find(iter, QUOTE_TXT);
 	strcat(quote_text, txt_tuple->value->cstring);
-        //snprintf(quote_text, 1024, txt_tuple->value->cstring);
 	// if the transfer has ended, set the new text
 	// read the command value
-	//Tuple *end_tuple = dict_find(iter, QUOTE_END);
-	//if (end_tuple){
+	Tuple *end_tuple = dict_find(iter, QUOTE_END);
+	if (end_tuple){
 		text_layer_set_text(&text_layer, quote_text);
 		// set new scroll height and go to top
   		GSize max_size = text_layer_get_max_used_size(app_get_current_graphics_context(), &text_layer);
 		text_layer_set_size(&text_layer, max_size);
   		scroll_layer_set_content_size(&scroll_layer, GSize(144, max_size.h + vert_scroll_text_padding));
   		scroll_layer_set_content_offset(&scroll_layer, GPoint(0,0), false);
-	//}
+		light_enable_interaction();
+	}
 }
 
 static void in_dropped_callback(void* context, AppMessageResult reason) {
-	text_layer_set_text(&text_layer, "Error while receiving :(");
+	text_layer_set_text(&text_layer, "Error receiving :(");
 	// set new scroll height and go to top
   	GSize max_size = text_layer_get_max_used_size(app_get_current_graphics_context(), &text_layer);
   	scroll_layer_set_content_size(&scroll_layer, GSize(144, max_size.h + vert_scroll_text_padding));

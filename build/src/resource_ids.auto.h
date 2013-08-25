@@ -10,16 +10,16 @@
 typedef enum {
   INVALID_RESOURCE = 0,
   DEFAULT_MENU_ICON = 0, // Friendly synonym for use in `PBL_APP_INFO()` calls
-  RESOURCE_ID_DUMMY,
+  RESOURCE_ID_QUOTES_ICON,
 
 } ResourceId;
 static const ResBankVersion VERSION = {
-  .crc = 2400173576,
-  .timestamp = 1377317229,
+  .crc = 3521736017,
+  .timestamp = 1377427841,
   .friendly_version = "VERSION"
 };
 
 static const uint32_t resource_crc_table[] = {
-  2400173576,
+  3521736017,
 };
 
